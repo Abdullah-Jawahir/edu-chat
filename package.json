@@ -1,0 +1,36 @@
+{
+  "name": "edu-chat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^3.15.0",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^12.15.0",
+    "lucide-react": "^0.511.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.6.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "@types/node": "^22.15.23",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.5.0"
+  }
+}
